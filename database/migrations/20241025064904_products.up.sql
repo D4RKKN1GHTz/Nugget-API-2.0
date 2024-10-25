@@ -1,0 +1,14 @@
+-- SET statement_timeout = 0;
+
+-- CREATE TABLE products (
+--     id VARCHAR DEFAULT gen_random_uuid() PRIMARY KEY,
+--     name VARCHAR NOT NULL,
+--     image VARCHAR NOT NULL,
+--     type INT NOT NULL,
+--     state INT NOT NULL,
+--     price INT NOT NULL,
+--     price_type INT NOT NULL,
+--     created_at BIGINT DEFAULT EXTRACT(EPOCH FROM NOW()),
+--     updated_at BIGINT DEFAULT EXTRACT(EPOCH FROM NOW()),
+--     deleted_at TIMESTAMP NULL
+-- );

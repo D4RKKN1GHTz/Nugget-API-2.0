@@ -1,0 +1,14 @@
+-- SET statement_timeout = 0;
+
+-- CREATE TABLE users (
+--     id VARCHAR DEFAULT gen_random_uuid() PRIMARY KEY,
+--     steam_id VARCHAR NOT NULL,
+--     name VARCHAR NOT NULL,
+--     avatar VARCHAR NOT NULL,
+--     points INT NOT NULL,
+--     vip_points INT NOT NULL,
+--     status INT NOT NULL,
+--     created_at BIGINT DEFAULT EXTRACT(EPOCH FROM NOW()),
+--     updated_at BIGINT DEFAULT EXTRACT(EPOCH FROM NOW()),
+--     deleted_at TIMESTAMP NULL
+-- );
